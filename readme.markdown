@@ -17,3 +17,21 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+
+### 2.3 Linux 环境配置与运行
+
+在 Linux 环境下，建议按照以下步骤配置虚拟环境并运行：
+
+```bash
+# 1. 创建虚拟环境
+python3 -m venv venv
+
+# 2. 激活虚拟环境
+source venv/bin/activate
+
+# 3. 安装依赖
+pip install -r requirements.txt
+
+# 4. 运行程序
+python main.py
+```
